@@ -11,7 +11,7 @@ public class FirstActor extends UntypedAbstractActor{
 	// Logger attached to actor
 	private final LoggingAdapter log = Logging.getLogger(getContext().getSystem(), this);
 	// Actor reference
-	private ActorRef actorRef;
+	private ActorRef actorRef; //a2
 
 	public FirstActor() {}
 

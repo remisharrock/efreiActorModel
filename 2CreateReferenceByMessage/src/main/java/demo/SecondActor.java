@@ -8,7 +8,7 @@ public class SecondActor extends UntypedAbstractActor {
 	// Empty Constructor
 	public SecondActor() {}
 
-	// Static function that creates an actor Props
+	// Static function that creates actor
 	public static Props createActor() {
 		return Props.create(SecondActor.class, () -> {
 			return new SecondActor();
@@ -17,7 +17,7 @@ public class SecondActor extends UntypedAbstractActor {
 
 	@Override
 	public void onReceive(Object message) throws Throwable {
-		
+
 	}
 	
 	
